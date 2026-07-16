@@ -3,78 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>墨宵🌸桜Ch. / 墨宵🌸桜と友達！！</title>
-    <link rel="stylesheet" href="/assets/css/_main.css" type="text/css" />
-    <link
-      rel="icon"
-      href="https://thebelovedmoon.github.io/sumiyoi/favicon.png"
-      type="image/x-icon"
-    />
-    <link
-      rel="apple-touch-icon"
-      href="https://thebelovedmoon.github.io/sumiyoi/favicon.png"
-      type="image/x-icon"
-    />
-    <meta name="theme-color" content="#e27faf" />
-    <meta name="msapplication-TileColor" content="#e27faf" />
-    <meta name="msapplication-navbutton-color" content="#e27faf" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#e27faf" />
+    <title>404 not found</title>
+    <link rel="stylesheet" href="/assets/css/_main.css" type="text/css">
+    <script src="/assets/js/_main.js" type="text/javascript"></script>
+    <link rel="icon" href="/sakurasumiyoi/assets/images/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/sakurasumiyoi/assets/images/favicon.png" type="image/x-icon">
+    <!-- <meta name="og:type" content="website">
+    <meta name="og:title" content="【Project:177013】">
+    <meta name="og:image" content="https://thebelovedmoon.github.io/sumiyoi/assets/images/177013/preview.png">
+    <meta name="og:url" content="https://177013.github.io">
+    <meta name="og:description" content="もうすぐ、また私の物語を皆が聞くことになるでしょう。">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@SakuraSumiyoi"> -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="msapplication-navbutton-color" content="#000000" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
+    <!-- <script type="text/javascript">
+      window.location.replace("/");
+    </script> -->
     <style type="text/css">
-      html {
-        background-color: #e27faf;
-        color: black;
-      }
-      .ctr {
-        div {
-          width: 625px;
-          max-width: 100%;
-          img {
-            width: 250px;
-            margin: 0 auto;
-            border-radius: 50%;
-          }
-        }
-      }
-      button {
-        display: inline-block;
-        font-size: inherit;
-        background-color: black;
-        color: #e27faf;
-        border: none;
-        font-family: inherit;
-        margin-top: 0.5em;
-        padding: 0.5em 1em;
-        font-weight: bold;
-        border-radius: 9999px;
-        cursor: pointer;
-      }
-      button:hover {
-        background-color: #222222;
-      }
+      @import url("/sakurasumiyoi/assets/css/base.css");
+      @import url("/sakurasumiyoi/assets/css/404.css");
     </style>
+    <!-- <script src="https://comebackhome.org/js/comebackhome.bundle.min.js" type="text/javascript"></script> -->
+    <script src="/assets/js/comebackhome/comebackhome.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      function perPageInit() {
+        // TODO: per-page js functions here
+        // personalizeBackHome();
+      }
+    </script>
   </head>
-  <body>
-    <div class="ctr">
+  <body onload="{ loadSite(); }">
+    <div class="fscrnNotFound">
       <div>
-        <img src="/sakurasumiyoi/sakurasumiyoi.png" alt="Sumiyoi🌸Sakura" />
-        <br />
-        <h1>we're working on it</h1>
-        <br />
-        <p>
-          we're currently working on the website following our switch!! we'll
-          bring you more updates as they come in on X:
-        </p>
-        <button
-          onclick="
-            {
-              window.open('https://x.com/SakuraSumiyoi');
-            }
-          "
-        >
-          @SakuraSumiyoi on X
-        </button>
-        <br /><br /><br />
-        <p class="tbmassoc-brand">©2020 <b>vtNet</b>, a tbmassoc network</p>
+        <p>we're sorry, but the requested page is not found.</p>
+        <p>can you perhaps help bring the lost souls safely back home?</p>
+        <br>
+        <button onclick="{ window.location.replace('/'); }">come back home</button>
       </div>
     </div>
   </body>
